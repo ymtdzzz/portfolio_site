@@ -1,0 +1,138 @@
+/* global */
+html,
+body {
+    height: 100%;
+    /* font-family: english-grotesque, sans-serif; */
+    /* font-family: ff-market-web, sans-serif;  */
+    font-weight: 100;
+    font-style: normal;
+    box-sizing: border-box;
+    background-color: #272727;
+}
+
+/* jquery-scrollify */
+.scroll-section {
+    color: white;
+    padding: 0;
+}
+
+/* main style */
+.container {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 auto;
+}
+/* side bar */
+.sidebar {
+    top: 0;
+    width: 200px;
+    background-color: black;
+}
+.sidebar .menu {
+    font-family: english-grotesque, sans-serif;
+    font-style: thin;
+    font-weight: 100;
+    position: fixed;
+    bottom: 10%;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.sidebar .menu li {
+    line-height: 3.2;
+}
+.sidebar .menu li a {
+    text-decoration: none;
+    color: white;
+}
+/* main common */
+.main-contents {
+    width: calc(100% - 200px);
+}
+/* top */
+.top {
+    position: relative;
+}
+.top-container {
+    margin: 0;
+    display: flex;
+}
+.top-container li {
+    background-color: #272727;
+    position: relative;
+    font-family: politica, sans-serif;
+    font-size: 2.5rem;
+    list-style: none;
+    width: 33.33333%;
+    width: -webkit-calc(100% / 3);
+    width: calc(100% / 3);
+    border-right: 1px solid white;
+}
+.top-container li:last-child {
+    border: none;
+}
+.top-container li p {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.display-name {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 7.5rem;
+    top: 0;
+}
+.whoami {
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P';
+    line-height: 2;
+    display: inline-block;
+    color: green;
+    background-color: #171717;
+}
+.whoami-line {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P';
+    line-height: 2;
+    border-left: 12px solid white;
+}
+/* profile */
+.profile {
+    
+}
+.profile-container {
+    display: flex;
+}
+.profile-side-container {
+    position: relative;
+    width: 35%;
+}
+.profile-side-container p {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 5.5rem;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.profile-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* web design */
+.web-design {
+    background: #e5cf54;
+}
+.web-development {
+    background: #45CB99;
+}
+.illustration {
+    background: green;
+}
+.contact {
+    background: yellow;
+}
