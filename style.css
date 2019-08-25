@@ -125,14 +125,93 @@ body {
 }
 /* web design */
 .web-design {
-    background: #e5cf54;
+    
 }
+.web-design-container {
+    display: flex;
+}
+.web-design-side-container {
+    position: relative;
+    width: 35%;
+}
+.web-design-side-container p {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 5.5rem;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.web-design-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* web development */
 .web-development {
-    background: #45CB99;
+    
 }
+.web-development-container {
+    display: flex;
+}
+.web-development-side-container {
+    position: relative;
+    width: 35%;
+}
+.web-development-side-container p {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 5.5rem;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.web-development-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* illustration */
 .illustration {
-    background: green;
+    
 }
+.illustration-container {
+    display: flex;
+}
+.illustration-side-container {
+    position: relative;
+    width: 35%;
+}
+.illustration-side-container p {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 5.5rem;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.illustration-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* contact */
 .contact {
-    background: yellow;
+    
+}
+.contact-container {
+    display: flex;
+}
+.contact-side-container {
+    position: relative;
+    width: 35%;
+}
+.contact-side-container p {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 5.5rem;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.contact-main-container {
+    width: 65%;
+    background-color: white;
 }
