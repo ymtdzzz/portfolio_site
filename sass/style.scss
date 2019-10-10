@@ -1,0 +1,217 @@
+/* global */
+html,
+body {
+    height: 100%;
+    /* font-family: english-grotesque, sans-serif; */
+    /* font-family: ff-market-web, sans-serif;  */
+    font-weight: 100;
+    font-style: normal;
+    box-sizing: border-box;
+    background-color: #272727;
+}
+
+/* jquery-scrollify */
+.scroll-section {
+    color: white;
+    padding: 0;
+}
+
+/* main style */
+.container {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 auto;
+}
+/* side bar */
+.sidebar {
+    top: 0;
+    width: 200px;
+    background-color: black;
+    .menu {
+        font-family: english-grotesque, sans-serif;
+        font-style: thin;
+        font-weight: 100;
+        position: fixed;
+        bottom: 10%;
+        color: white;
+        width: 200px;
+        text-align: center;
+        li {
+            line-height: 3.2;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+/* main common */
+.main-contents {
+    width: calc(100% - 200px);
+}
+/* top */
+.top {
+    position: relative;
+}
+.top-container {
+    margin: 0;
+    display: flex;
+    li {
+        background-color: #272727;
+        position: relative;
+        font-family: politica, sans-serif;
+        font-size: 2.5rem;
+        list-style: none;
+        width: 33.33333%;
+        width: -webkit-calc(100% / 3);
+        width: calc(100% / 3);
+        border-right: 1px solid white;
+        &:last-child {
+            border: none;
+        }
+        p {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+.display-name {
+    position: absolute;
+    font-family: ff-market-web, sans-serif;
+    font-size: 7.5rem;
+    top: 0;
+}
+.whoami {
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P';
+    line-height: 2;
+    display: inline-block;
+    color: green;
+    background-color: #171717;
+}
+.whoami-line {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P';
+    line-height: 2;
+    border-left: 12px solid white;
+}
+/* profile */
+.profile {
+    
+}
+.profile-container {
+    display: flex;
+}
+.profile-side-container {
+    position: relative;
+    width: 35%;
+    p {
+        position: absolute;
+        font-family: ff-market-web, sans-serif;
+        font-size: 5.5rem;
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+}
+.profile-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* web design */
+.web-design {
+    
+}
+.web-design-container {
+    display: flex;
+}
+.web-design-side-container {
+    position: relative;
+    width: 35%;
+    p {
+        position: absolute;
+        font-family: ff-market-web, sans-serif;
+        font-size: 5.5rem;
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+}
+.web-design-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* web development */
+.web-development {
+    
+}
+.web-development-container {
+    display: flex;
+}
+.web-development-side-container {
+    position: relative;
+    width: 35%;
+    p {
+        position: absolute;
+        font-family: ff-market-web, sans-serif;
+        font-size: 5.5rem;
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+}
+.web-development-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* illustration */
+.illustration {
+    
+}
+.illustration-container {
+    display: flex;
+}
+.illustration-side-container {
+    position: relative;
+    width: 35%;
+    p {
+        position: absolute;
+        font-family: ff-market-web, sans-serif;
+        font-size: 5.5rem;
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+}
+.illustration-main-container {
+    width: 65%;
+    background-color: white;
+}
+/* contact */
+.contact {
+    
+}
+.contact-container {
+    display: flex;
+}
+.contact-side-container {
+    position: relative;
+    width: 35%;
+    p {
+        position: absolute;
+        font-family: ff-market-web, sans-serif;
+        font-size: 5.5rem;
+        top: 0;
+        width: 100%;
+        text-align: right;
+    }
+}
+.contact-main-container {
+    width: 65%;
+    background-color: white;
+}
